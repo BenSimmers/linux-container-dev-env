@@ -1,8 +1,5 @@
 FROM debian:bookworm-slim
 
-# ARG USER_UID=1000
-# ARG USER_GID=$USER_UID
-
 ARG user_id=1000
 ARG group_id=$user_id
 
