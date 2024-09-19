@@ -43,17 +43,33 @@ RUN apt-get update && apt-get install -y \
 
 # Optional packages for c development
 # ===================================
-RUN apt-get update && \
-  apt-get install -y libncurses5-dev libncursesw5-dev
+# RUN apt-get update && \
+#   apt-get install -y libncurses5-dev libncursesw5-dev
 
-RUN apt-get update && \
-  apt-get install -y \
-  procps \
-  sysstat \
-  && apt-get clean -y \
-  && rm -rf /var/lib/apt/lists/*
+# RUN apt-get update && \
+#   apt-get install -y \
+#   procps \
+#   sysstat \
+#   && apt-get clean -y \
+#   && rm -rf /var/lib/apt/lists/*
 # ===================================
 
+
+# Optional packages for TypeScript development
+# ===================================
+# RUN apt-get update && \
+#   apt-get install -y nodejs npm
+
+# RUN npm install -g typescript
+# ===================================
+
+# Optional packages for Python development
+# ===================================
+# RUN apt-get update && \
+#   apt-get install -y python3 python3-pip
+
+# RUN pip3 install --upgrade pip
+# ===================================
 
 RUN echo "en_US.UTF-8 UTF-8" > /etc/locale.gen && \
   locale-gen en_US.UTF-8 && \
