@@ -15,7 +15,17 @@
         "editorconfig.editorconfig",
         "esbenp.prettier-vscode",
         "streetsidesoftware.code-spell-checker",
-        "stylelint.vscode-stylelint"
+        "stylelint.vscode-stylelint",
+        "ms-python.python",
+        "ms-azuretools.vscode-docker",
+        "eamodio.gitlens",
+        "ritwickdey.LiveServer",
+        "msjsdiag.debugger-for-chrome",
+        "xabikos.JavaScriptSnippets",
+        "abusaidm.html-snippets",
+        "yzhang.markdown-all-in-one",
+        "christian-kohler.path-intellisense",
+        "ms-vscode-remote.remote-ssh"
       ]
     }
   }
