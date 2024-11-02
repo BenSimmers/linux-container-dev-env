@@ -62,6 +62,3 @@ USER ${usr}
 WORKDIR /${workspace_env_name}
 
 RUN mkdir -p ~/bin ~/scripts
-
-
-# HEALTHCHECK CMD curl --fail http://localhost:YOUR_PORT || exit 1
